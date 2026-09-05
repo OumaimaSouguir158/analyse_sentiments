@@ -1,0 +1,11 @@
+# Entraînement (Google Colab)
+transformers==4.40.0
+datasets==2.19.0
+torch==2.2.0
+scikit-learn
+evaluate
+accelerate
+
+# Inference locale (PC i3 / 8 Go RAM) — CPU only, modèle léger DistilBERT
+transformers==4.40.0
+torch==2.2.0        # version CPU suffit (pip install torch --index-url https://download.pytorch.org/whl/cpu)
